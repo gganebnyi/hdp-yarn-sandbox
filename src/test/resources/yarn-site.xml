@@ -11,30 +11,30 @@
 </property>
 	<property>
 		<name>yarn.resourcemanager.admin.address</name>
-		<value>192.168.0.31:8141</value>
+		<value>192.168.88.57:8141</value>
 	</property>
 	<property>
 		<name>yarn.resourcemanager.address</name>
-		<value>192.168.0.31:8050</value>
+		<value>192.168.88.57:8050</value>
 	</property>
 	<property>
 		<name>yarn.nodemanager.address</name>
-		<value>192.168.0.31:45454</value>
+		<value>192.168.88.57:45454</value>
 	</property>
 	<property>
 		<name>yarn.resourcemanager.scheduler.address</name>
-		<value>192.168.0.31:8030</value>
+		<value>192.168.88.57:8030</value>
 	</property>
 	<property>
 		<name>yarn.resourcemanager.resource-tracker.address</name>
-		<value>192.168.0.31:8025</value>
+		<value>192.168.88.57:8025</value>
 	</property>
 	<property>
 		<name>yarn.resourcemanager.webapp.address</name>
-		<value>192.168.0.31:8088</value>
+		<value>192.168.88.57:8088</value>
 	</property>
 	<property>
 		<name>yarn.log.server.url</name>
-		<value>http://192.168.0.31:19888/jobhistory/logs</value>
+		<value>http://192.168.88.57:19888/jobhistory/logs</value>
 	</property>
 </configuration>
