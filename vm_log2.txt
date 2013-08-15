@@ -1,0 +1,239 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hdp-yarn-sandbox AWESOME-RELEASE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hdp-yarn-sandbox ---
+[INFO] Deleting /root/hdp-yarn-sandbox/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hdp-yarn-sandbox ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/hdp-yarn-sandbox/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ hdp-yarn-sandbox ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hdp-yarn-sandbox ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ hdp-yarn-sandbox ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /root/hdp-yarn-sandbox/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hdp-yarn-sandbox ---
+[INFO] Surefire report directory: /root/hdp-yarn-sandbox/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running md.fusionworks.hadoop.BasicConnectivityTest
+1    [main] DEBUG org.apache.hadoop.util.Shell.checkHadoopHome null - Failed to detect a valid hadoop home directory
+java.io.IOException: Hadoop home directory /usr/lib/haddop does not exist, is not a directory, or is not an absolute path.
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:223)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:238)
+	at org.apache.hadoop.yarn.api.ApplicationConstants$Environment.<clinit>(ApplicationConstants.java:83)
+	at org.apache.hadoop.yarn.conf.YarnConfiguration.<clinit>(YarnConfiguration.java:311)
+	at md.fusionworks.hadoop.BasicConnectivityTest.<clinit>(BasicConnectivityTest.java:17)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:209)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:258)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:255)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+21   [main] DEBUG org.apache.hadoop.util.Shell.isSetsidSupported null - setsid exited with exit code 0
+32   [main] DEBUG org.apache.hadoop.service.AbstractService.enterState null - Service: org.apache.hadoop.yarn.client.api.impl.YarnClientImpl entered state INITED
+278  [main] DEBUG org.apache.hadoop.yarn.ipc.YarnRPC.create null - Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
+281  [main] DEBUG org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC.getProxy null - Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.yarn.api.ApplicationClientProtocol
+401  [main] DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField null - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)
+410  [main] DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField null - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)
+412  [main] DEBUG org.apache.hadoop.metrics2.impl.MetricsSystemImpl.register null - UgiMetrics, User and group related metrics
+494  [main] DEBUG org.apache.hadoop.security.Groups.getUserToGroupsMappingService null -  Creating new Groups object
+496  [main] DEBUG org.apache.hadoop.util.NativeCodeLoader.<clinit> null - Trying to load the custom-built native-hadoop library...
+523  [main] DEBUG org.apache.hadoop.util.NativeCodeLoader.<clinit> null - Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+523  [main] DEBUG org.apache.hadoop.util.NativeCodeLoader.<clinit> null - java.library.path=/usr/jdk/jdk1.6.0_31/jre/lib/amd64/server:/usr/jdk/jdk1.6.0_31/jre/lib/amd64:/usr/jdk/jdk1.6.0_31/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+523  [main] WARN  org.apache.hadoop.util.NativeCodeLoader.<clinit> null - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+523  [main] DEBUG org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init> null - Falling back to shell based
+524  [main] DEBUG org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init> null - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+524  [main] DEBUG org.apache.hadoop.security.Groups.<init> null - Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000
+551  [main] DEBUG org.apache.hadoop.security.UserGroupInformation.login null - hadoop login
+552  [main] DEBUG org.apache.hadoop.security.UserGroupInformation.commit null - hadoop login commit
+561  [main] DEBUG org.apache.hadoop.security.UserGroupInformation.commit null - using local user:UnixPrincipal: root
+563  [main] DEBUG org.apache.hadoop.security.UserGroupInformation.getLoginUser null - UGI loginUser:root (auth:SIMPLE)
+578  [main] DEBUG org.apache.hadoop.ipc.Server.registerProtocolEngine null - rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@455fc40c
+674  [main] DEBUG org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.serviceStart null - Connecting to ResourceManager at /0.0.0.0:8032
+674  [main] DEBUG org.apache.hadoop.service.AbstractService.start null - Service org.apache.hadoop.yarn.client.api.impl.YarnClientImpl is started
+1034 [main] TRACE org.apache.hadoop.ipc.ProtobufRpcEngine.invoke null - 1: Call -> null@/0.0.0.0:8032: getNewApplication {}
+1044 [main] DEBUG org.apache.hadoop.ipc.Client.<init> null - The ping interval is 60000 ms.
+1058 [main] DEBUG org.apache.hadoop.yarn.security.client.RMDelegationTokenSelector.selectToken null - Looking for a token with service 0.0.0.0:8032
+1060 [main] DEBUG org.apache.hadoop.ipc.Client.<init> null - RPC Server's Kerberos principal name for protocol=org.apache.hadoop.yarn.api.ApplicationClientProtocolPB is null
+1060 [main] DEBUG org.apache.hadoop.ipc.Client.<init> null - Use SIMPLE authentication for protocol ApplicationClientProtocolPB
+1061 [main] DEBUG org.apache.hadoop.ipc.Client.setupIOstreams null - Connecting to /0.0.0.0:8032
+2263 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+3264 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+4265 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+5266 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+6268 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+7274 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+8275 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+9277 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+10279 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+11280 [main] INFO  org.apache.hadoop.ipc.Client.handleConnectionFailure null - Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+11318 [main] DEBUG org.apache.hadoop.ipc.Client.close null - closing ipc connection to 0.0.0.0/0.0.0.0:8032: Connection refused
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:514)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:609)
+	at org.apache.hadoop.ipc.Client$Connection.access$2200(Client.java:256)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1365)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1283)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1264)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at $Proxy8.getNewApplication(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ApplicationClientProtocolPBClientImpl.getNewApplication(ApplicationClientProtocolPBClientImpl.java:167)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.getNewApplication(YarnClientImpl.java:133)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.createApplication(YarnClientImpl.java:141)
+	at md.fusionworks.hadoop.BasicConnectivityTest.test(BasicConnectivityTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+11325 [main] DEBUG org.apache.hadoop.ipc.Client.close null - IPC Client (1457155060) connection to /0.0.0.0:8032 from root: closed
+11326 [main] TRACE org.apache.hadoop.ipc.ProtobufRpcEngine.invoke null - 1: Exception <- null@0.0.0.0/0.0.0.0:8032: getNewApplication {java.net.ConnectException: Call From sandbox/192.168.0.31 to 0.0.0.0:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused}
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.593 sec <<< FAILURE!
+test(md.fusionworks.hadoop.BasicConnectivityTest)  Time elapsed: 11.559 sec  <<< ERROR!
+java.net.ConnectException: Call From sandbox/192.168.0.31 to 0.0.0.0:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:783)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:730)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1316)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1264)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at $Proxy8.getNewApplication(Unknown Source)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ApplicationClientProtocolPBClientImpl.getNewApplication(ApplicationClientProtocolPBClientImpl.java:167)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.getNewApplication(YarnClientImpl.java:133)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.createApplication(YarnClientImpl.java:141)
+	at md.fusionworks.hadoop.BasicConnectivityTest.test(BasicConnectivityTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:514)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:609)
+	at org.apache.hadoop.ipc.Client$Connection.access$2200(Client.java:256)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1365)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1283)
+	... 36 more
+
+
+Results :
+
+Tests in error: 
+  test(md.fusionworks.hadoop.BasicConnectivityTest): Call From sandbox/192.168.0.31 to 0.0.0.0:8032 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.491s
+[INFO] Finished at: Thu Aug 15 16:27:23 PDT 2013
+[INFO] Final Memory: 14M/57M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project hdp-yarn-sandbox: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /root/hdp-yarn-sandbox/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
