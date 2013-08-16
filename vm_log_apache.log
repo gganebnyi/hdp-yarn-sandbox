@@ -1,0 +1,262 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hdp-yarn-sandbox AWESOME-RELEASE
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-yarn-api/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-yarn-api/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-api:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-api:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-yarn/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-yarn/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-project/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-project/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-project:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-project:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-main/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-main/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-main:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-main:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-annotations/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-annotations/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-annotations:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-annotations:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-annotations:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.https (https://repository.apache.org/content/repositories/snapshots): repository.apache.org
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-common/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-common/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-common:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-common:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-project-dist/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-project-dist/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-project-dist:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-project-dist:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-auth/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-auth/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-auth:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-auth:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-auth:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.https (https://repository.apache.org/content/repositories/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-yarn-applications-distributedshell/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-yarn-applications-distributedshell/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-applications-distributedshell:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-applications-distributedshell:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-yarn-applications/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-yarn-applications/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-applications:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-applications:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-yarn-common/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-yarn-common/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-yarn-common/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-common:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-common:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-common:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.https (https://repository.apache.org/content/repositories/snapshots): repository.apache.org
+Downloading: http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/org/apache/hadoop/hadoop-yarn-client/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-yarn-client/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/content/groups/snapshots/org/apache/hadoop/hadoop-yarn-client/2.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-client:2.1.0-SNAPSHOT/maven-metadata.xml from/to biodatomics (http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/): ci.biodt.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-client:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.repo (https://repository.apache.org/content/groups/snapshots): repository.apache.org
+[WARNING] Could not transfer metadata org.apache.hadoop:hadoop-yarn-client:2.1.0-SNAPSHOT/maven-metadata.xml from/to apache.snapshots.https (https://repository.apache.org/content/repositories/snapshots): repository.apache.org
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hdp-yarn-sandbox ---
+[INFO] Deleting /root/hdp-yarn-sandbox/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hdp-yarn-sandbox ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/hdp-yarn-sandbox/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ hdp-yarn-sandbox ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hdp-yarn-sandbox ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:testCompile (default-testCompile) @ hdp-yarn-sandbox ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /root/hdp-yarn-sandbox/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hdp-yarn-sandbox ---
+[INFO] Surefire report directory: /root/hdp-yarn-sandbox/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running md.fusionworks.hadoop.BasicConnectivityTest
+0    [main] DEBUG org.apache.hadoop.util.Shell.isSetsidSupported null - setsid exited with exit code 0
+33   [main] DEBUG org.apache.hadoop.service.AbstractService.enterState null - Service: org.apache.hadoop.yarn.client.api.impl.YarnClientImpl entered state INITED
+351  [main] DEBUG org.apache.hadoop.yarn.ipc.YarnRPC.create null - Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
+353  [main] DEBUG org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC.getProxy null - Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.yarn.api.ApplicationClientProtocol
+613  [main] DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField null - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)
+641  [main] DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField null - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)
+643  [main] DEBUG org.apache.hadoop.metrics2.impl.MetricsSystemImpl.register null - UgiMetrics, User and group related metrics
+968  [main] DEBUG org.apache.hadoop.security.Groups.getUserToGroupsMappingService null -  Creating new Groups object
+971  [main] DEBUG org.apache.hadoop.util.NativeCodeLoader.<clinit> null - Trying to load the custom-built native-hadoop library...
+1004 [main] DEBUG org.apache.hadoop.util.NativeCodeLoader.<clinit> null - Loaded the native-hadoop library
+1020 [main] DEBUG org.apache.hadoop.service.AbstractService.noteFailure null - noteFailure org.apache.hadoop.yarn.exceptions.YarnRuntimeException: java.lang.reflect.InvocationTargetException
+1021 [main] INFO  org.apache.hadoop.service.AbstractService.noteFailure null - Service org.apache.hadoop.yarn.client.api.impl.YarnClientImpl failed in state STARTED; cause: org.apache.hadoop.yarn.exceptions.YarnRuntimeException: java.lang.reflect.InvocationTargetException
+org.apache.hadoop.yarn.exceptions.YarnRuntimeException: java.lang.reflect.InvocationTargetException
+	at org.apache.hadoop.yarn.factories.impl.pb.RpcClientFactoryPBImpl.getClient(RpcClientFactoryPBImpl.java:79)
+	at org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC.getProxy(HadoopYarnProtoRPC.java:48)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.serviceStart(YarnClientImpl.java:113)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:193)
+	at md.fusionworks.hadoop.BasicConnectivityTest.test(BasicConnectivityTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.hadoop.yarn.factories.impl.pb.RpcClientFactoryPBImpl.getClient(RpcClientFactoryPBImpl.java:76)
+	... 33 more
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:128)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:55)
+	at org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:234)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:213)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:662)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:570)
+	at org.apache.hadoop.ipc.RPC.getProtocolProxy(RPC.java:446)
+	at org.apache.hadoop.ipc.RPC.getProtocolProxy(RPC.java:600)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:557)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ApplicationClientProtocolPBClientImpl.<init>(ApplicationClientProtocolPBClientImpl.java:106)
+	... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:126)
+	... 48 more
+Caused by: java.lang.UnsatisfiedLinkError: org.apache.hadoop.security.JniBasedUnixGroupsMapping.anchorNative()V
+	at org.apache.hadoop.security.JniBasedUnixGroupsMapping.anchorNative(Native Method)
+	at org.apache.hadoop.security.JniBasedUnixGroupsMapping.<clinit>(JniBasedUnixGroupsMapping.java:49)
+	at org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init>(JniBasedUnixGroupsMappingWithFallback.java:38)
+	... 53 more
+1026 [main] DEBUG org.apache.hadoop.service.AbstractService.enterState null - Service: org.apache.hadoop.yarn.client.api.impl.YarnClientImpl entered state STOPPED
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.961 sec <<< FAILURE!
+test(md.fusionworks.hadoop.BasicConnectivityTest)  Time elapsed: 1.93 sec  <<< ERROR!
+org.apache.hadoop.yarn.exceptions.YarnRuntimeException: java.lang.reflect.InvocationTargetException
+	at org.apache.hadoop.yarn.factories.impl.pb.RpcClientFactoryPBImpl.getClient(RpcClientFactoryPBImpl.java:79)
+	at org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC.getProxy(HadoopYarnProtoRPC.java:48)
+	at org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.serviceStart(YarnClientImpl.java:113)
+	at org.apache.hadoop.service.AbstractService.start(AbstractService.java:193)
+	at md.fusionworks.hadoop.BasicConnectivityTest.test(BasicConnectivityTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.hadoop.yarn.factories.impl.pb.RpcClientFactoryPBImpl.getClient(RpcClientFactoryPBImpl.java:76)
+	... 33 more
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:128)
+	at org.apache.hadoop.security.Groups.<init>(Groups.java:55)
+	at org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:234)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:213)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:662)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:570)
+	at org.apache.hadoop.ipc.RPC.getProtocolProxy(RPC.java:446)
+	at org.apache.hadoop.ipc.RPC.getProtocolProxy(RPC.java:600)
+	at org.apache.hadoop.ipc.RPC.getProxy(RPC.java:557)
+	at org.apache.hadoop.yarn.api.impl.pb.client.ApplicationClientProtocolPBClientImpl.<init>(ApplicationClientProtocolPBClientImpl.java:106)
+	... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:126)
+	... 48 more
+Caused by: java.lang.UnsatisfiedLinkError: org.apache.hadoop.security.JniBasedUnixGroupsMapping.anchorNative()V
+	at org.apache.hadoop.security.JniBasedUnixGroupsMapping.anchorNative(Native Method)
+	at org.apache.hadoop.security.JniBasedUnixGroupsMapping.<clinit>(JniBasedUnixGroupsMapping.java:49)
+	at org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init>(JniBasedUnixGroupsMappingWithFallback.java:38)
+	... 53 more
+
+
+Results :
+
+Tests in error: 
+  test(md.fusionworks.hadoop.BasicConnectivityTest): java.lang.reflect.InvocationTargetException
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 30.173s
+[INFO] Finished at: Fri Aug 16 00:51:29 PDT 2013
+[INFO] Final Memory: 15M/95M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project hdp-yarn-sandbox: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /root/hdp-yarn-sandbox/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
