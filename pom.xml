@@ -50,7 +50,7 @@
     <repositories>
         <repository>
             <id>biodatomics</id>
-            <url>http://ci.biodt.org:8888/nexus-latest/content/repositories/releases/</url>
+            <url>http://my_own_repo</url>
         </repository>
         <repository>
             <id>Codehaus repository</id>
