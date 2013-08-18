@@ -1,14 +1,14 @@
 <!--Sun Jun 16 11:08:58 2013 -->
 <configuration>
-<property>
-  <name>hadoop.security.authentication</name>
-  <value>simple</value> <!-- A value of "simple" would disable security. -->
-</property>
+	<property>
+		<name>hadoop.security.authentication</name>
+		<value>simple</value> <!-- A value of "simple" would disable security. -->
+	</property>
 
-<property>
-  <name>hadoop.security.authorization</name>
-  <value>false</value>
-</property>
+	<property>
+		<name>hadoop.security.authorization</name>
+		<value>false</value>
+	</property>
 	<property>
 		<name>yarn.resourcemanager.admin.address</name>
 		<value>192.168.88.57:8141</value>
